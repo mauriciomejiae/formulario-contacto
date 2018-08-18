@@ -1,0 +1,125 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #222f3e;
+	font-family: 'Poppins', sans-serif;
+}
+
+.container {
+	width: 50%;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.contacto-container {
+	background: #FFF;
+	margin-top: 40px;
+	margin-bottom: 24px;
+	padding: 24px;
+	border-bottom: 5px solid #d35400;
+}
+
+.titulo-contacto {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	margin-bottom: 24px;
+	border-bottom: 1px solid #eaeaea;
+	padding-bottom: 15px;
+}
+
+.titulo-contacto h2 {
+	font-weight: 500;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	color: #d35400;
+}
+
+.titulo-contacto p {
+	font-weight: 300;
+	font-style: italic;
+	font-size: 12px;
+	color: #576574;
+}
+
+/* Estilos del formulario */
+.form-control {
+	display: block;
+	width: 100%;
+	border: 1px solid #eaeaea;
+	padding: 15px;
+	margin-bottom: 15px;
+	font-size: 12px;
+	outline: none;
+	border-radius: 5px;
+}
+
+.form-control:focus {
+	padding: 14px;
+	border: 2px solid #d35400;
+}
+
+form textarea {
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	font-family: 'Poppins', sans-serif;
+	color: #222f3e;
+}
+
+form label {
+	font-size: 12px;
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 15px;
+	display: block;
+}
+
+.button-send {
+	display: inline-block;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 5px;
+	background: #d35400;
+	cursor: pointer;
+	color: #FFF;
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	transition: all ease .4s;
+}
+
+.button-send:hover {
+	padding: 10px 25px;
+	background: #222f3e;
+	font-size: 14px;
+}
+
+.alert {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	color: rgba(255,255,255,.87);
+	font-size: 12px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+.alert > li {
+	list-style-type: square;
+	/*display: block;*/
+	/*padding-bottom: 5px;*/
+	margin: 5px 0;
+}
+
+.error {
+	background: #ff6b6b;
+}
+
+.success {
+	background: #01a3a4;
+}
